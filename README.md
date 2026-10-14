@@ -8,6 +8,11 @@ I build workflow automation that is **tested, auditable and privacy-conscious** 
 
 ## Featured projects
 
+### [LAB-M01 · Maintenance workflow demonstrator](https://github.com/bh-automation/lab-m01-maintenance-demo)
+**Problem:** material movements and maintenance confirmations need a traceable process. **Solution:** supervised n8n forms for spare-part withdrawals, goods receipts and lubrication reports, with a DEMO ledger and conditional Gmail messages.
+
+**Evidence:** three documented cloud baseline flows · owner-confirmed smartphone trial · 13 offline scenarios with 64 assertions. The public package includes runnable JavaScript rule tests; it is a course demonstration with synthetic data, not a production system. [Scope and limits](https://github.com/bh-automation/lab-m01-maintenance-demo/blob/main/docs/TESTING.md)
+
 ### [Outlook Command Center](https://github.com/bh-automation/outlook-command-center)
 **Problem:** several status categories per email create chaos. **Solution:** an Outlook task-pane add-in that gives every message exactly one status (ACTION · WAITING · PROJECT · DONE · REFERENCE) — no delete, move or send, minimal `ReadWriteItem` permission, no tracking.
 
@@ -20,7 +25,7 @@ I build workflow automation that is **tested, auditable and privacy-conscious** 
 
 ## Verified stack
 
-Python · JavaScript · PowerShell · Outlook / Office add-ins · Gmail API · GitHub Actions · CI/CD · automated and E2E testing · CodeQL · GitHub Pages · technical documentation
+Python · JavaScript · PowerShell · n8n · Google Sheets · Outlook / Office add-ins · Gmail API · GitHub Actions · CI/CD · automated and E2E testing · CodeQL · GitHub Pages · technical documentation
 
 ## How I work
 
